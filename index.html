@@ -8,6 +8,11 @@
     <title>My awesome portfolio</title>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="./css/style.css">
+    <script>
+        function resume() {
+            window.open("https://drive.google.com/file/d/1VUil8P08awls8DC-XFdFiF28pFNHn4d8/view?usp=share_link")
+        }
+    </script>
 </head>
 
 <body>
@@ -59,7 +64,7 @@
                         Sound knowledge in React.js, HTML5, CSS3, Node.js, MySQL & other UI frameworks. Build reusable
                         code for future use while optimising web performance.</p>
                     <div>
-                        <button class="btn btn-secondary">DOWNLOAD CV</button>
+                        <button onclick="resume()" class="btn btn-secondary">DOWNLOAD CV</button>
                     </div>
                 </div>
             </div>
@@ -168,7 +173,7 @@
     </section>
     <section class="freelancer">
         <h1>I Am Available For Work.</h1>
-        <button class="btn btn-primary">DOWNLOAD CV</button>
+        <button onclick="resume()" class="btn btn-primary">DOWNLOAD CV</button>
     </section>
     <!-- This is section of our clients -->
     <section id="source" class="reviews">
